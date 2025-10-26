@@ -34,14 +34,6 @@
 // // **Remove app.listen()**
 // // Vercel will handle the server
 // module.exports = app;
-const express = require('express');
-const connectDB = require('./config/db');
-const cors = require('cors');
-
-// Only load dotenv in non-production (local) environment
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
 
 // Connect to MongoDB
 const express = require('express');
