@@ -17,5 +17,8 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "@google/generative-ai": "^0.24.1"
   }
 }
